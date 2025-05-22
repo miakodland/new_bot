@@ -28,6 +28,6 @@ async def repeat(ctx, times: int,*, content='repeating...'):
     for i in range(times):
         await ctx.send(content)
 
-token = ""
+token = "hola mundo"
 
 bot.run(token)
